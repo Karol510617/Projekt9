@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: serif;
+  background-color: #333;
+}
+
+.card {
+  width: 400px;
+  background-color: #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.card_img {
+  width: 100%;
+}
+.card_body {
+  padding: 10px 20px;
+}
+.card_text {
+  margin: 20px 0;
+}
+.card_btns {
+  display: flex;
+  justify-content: space-around;
+}
+.card_btn {
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.card_btn--highlight {
+  background-color: rgb(34, 116, 34);
+}/*# sourceMappingURL=style-projekt8.css.map */

@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="pl">
+
+<head>
+
+<title>Podcast</title>
+
+<meta charset="utf-8">
+<style>
+label {display: block;
+margin-top: 20px;}
+input {display: block;
+margin-bottom: 20px;}
+
+</style>
+
+
+</head>
+
+<body>
+<header>
+<h1>Podcast o projektowaniu webowym</h1>.
+<p>Pola wymagane oznaczono gwiazdką *</p>
+</header>
+<main>
+<p><a href="podcast.mp3" alt="podkast">Kliknij tutaj aby odsłuchać</a></p>
+<p><>
+<form method="post" acton="https://webdevbasics.net/scripts/demo.php">
+<label for="name">* Imię</label>
+<input type="text" id="name" name="name" required="required" placeholder="Twoje imię">
+<label for="surname">* Nazwisko</label>
+<input type="text" id="surname" name="surname" required="required" placeholder="Twoje nazwizko">
+<label for="email">* E-mail</label>
+<input type="email" name="email" id="email" required="required" placeholder="ty@twojadomena.com">
+<label for="grade">Ocena (1 &ndash; 10)</label>
+<input type="range" min="1" max="10" name="grade" id="grade">
+<label for="Opinia">* Opinia</label>
+<textarea name="Opinia" id="opinia" rows="2" cols="40" required="required" placeholder="Wpisz swoją opinię"></textarea>
+<input type="submit" value="Wyślij">
+
+</form>
+</main>
+
+</body>
+
+</html>

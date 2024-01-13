@@ -1,0 +1,62 @@
+<!DOCTYPE html> 
+<html lang="pl">
+	<head>	
+		<title>Galeria obrazów</title>
+		<meta charset="utf-8">
+		<style> 
+			* {box-sizing: border-box; }
+			#gallery {position: relative; }
+			#gallery ul {width: 280px; 
+							 list-style-type: none; }
+			#gallery li {display: inline; 
+							 float: left; 
+							 padding: 10px; }
+			#gallery img {border-style: none; }
+			#gallery a {text-decoration: none; 
+							color: #333; 
+							font-style: italic; }
+			#gallery span {display: none; }    
+			#gallery a:hover span {display: block; 
+										  position: absolute;
+										  top: 10px; 
+										  left: 300px; 
+										  text-align: center; } 
+		</style>
+	</head>
+	<body>
+		<h1>Galeria obrazów</h1>
+		<div id="gallery">
+			<ul>
+				<li><a href="photo1.jpg"><img src="thumb1.jpg" 
+						 width="100"   height="75" alt="Most Golden Gate">
+						 <span><img src="photo1.jpg" width="250" height="150"
+						 alt="Most Golden Gate"><br>Most Golden Gate</span></a>
+				</li>
+				<li><a href="photo2.jpg"><img src="thumb2.jpg" 
+						 width="100"   height="75" alt="Plaża kalifornijska">
+						 <span><img src="photo2.jpg" width="250" height="150"
+						 alt="Plaża kalifornijska"><br>Plaża kalifornijska</span></a>
+				</li>
+				<li><a href="photo3.jpg"><img src="thumb3.jpg" 
+						 width="100"   height="75" alt="Wybrzeże skaliste">
+						 <span><img src="photo3.jpg" width="250" height="150"
+						 alt="Wybrzeże skaliste"><br>Wybrzeże skaliste</span></a>
+				</li>
+				<li><a href="photo4.jpg"><img src="thumb4.jpg" 
+						 width="100"   height="75" alt="Zachód słońca nad Pacyfikiem">
+						 <span><img src="photo4.jpg" width="250" height="150"
+						 alt="Zachód słońca nad Pacyfikiem"><br>Zachód słońca nad Pacyfikiem</span></a>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+* {
+	background-color: #333;
+	color: #fff;
+	font-size: 36px;
+	margin: 0;
+}
+main {
+}
+.one {
+	background-color: red;
+	width: 500px;
+	height: 100px;
+	overflow: scroll;
+	margin: auto;
+}
+.two {
+	background-color: rgb(0, 255, 21);
+	width: 500px;
+	height: 100px;
+	overflow: scroll;
+	margin: auto;
+}
+.three {
+	background-color: rgb(8, 0, 255);
+	width: 500px;
+	height: 100px;
+	overflow: scroll;
+	margin: auto;
+}

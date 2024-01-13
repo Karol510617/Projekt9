@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: serif;
+	font-size: 30px;
+	color: #fff;
+	background-color: #333;
+}
+section {
+	width: 100vw;
+	height: 500px;
+	background-color: #666;
+	border-bottom: 10px solid black;
+}
+
+.first {
+	flex-flow: row wrap;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.second {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+.third {
+	display: flex;
+
+	flex-flow: row-reverse wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.square {
+	width: 200px;
+	height: 200px;
+}
+.one {
+	background-color: gold;
+}
+.two {
+	background-color: lime;
+}
+.three {
+	background-color: royalblue;
+}
+.four {
+	background-color: tomato;
+}

@@ -1,0 +1,15 @@
+/* CSS Document */
+nav {
+    background-image: url(headerbackblue.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    width: 650px;
+    }
+main {
+    color: #993300;
+    font-size: 1.2em;
+    font-family: arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+        }

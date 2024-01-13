@@ -1,0 +1,90 @@
+/* CSS Document */
+#malelogo {
+float: left;
+margin-left: -20px;
+
+        
+        }
+body { background: url(graphics/kurwano.jpg) repeat-y;
+        background-position: right;
+        
+        margin-top: 0;
+        margin left: 205px;
+        box-sizing: border-bx;
+        background-size: 80%
+        }        
+
+.wrapper    {
+        
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #000000;
+        
+    
+        
+        
+                    
+        
+
+        }
+h1 {
+        text-align: center;
+        
+        
+        }
+h2 {
+        text-align: center;
+        /*a to nie jest do poprawy*/
+        
+        }
+nav { 
+        text-align: center;
+        list-style-type: none;
+        text-decoration: none;
+        font-size: 20px;
+        color: #000000;  
+        float: left;
+        width: 200px;
+        margin-top: 100px;
+        margin-left: -100px;
+        line-height: 200%;
+        
+        
+             /*to jest do poprawy */  
+        
+        }
+nav ul {
+        position: fixed;
+        list-style-type: none;
+        text-decoration:none;
+        } 
+nav a {
+        border-bottom: 1px dotted #000000;
+        background-color: #ffff00;
+        display: block;}
+        
+main {
+        margin-left: 155x;
+        }
+
+        
+p {   
+        padding-left: 20em;  
+        }
+.baner {
+padding-left: 16.5em;
+max-width: 1180px;
+overflow: scroll;
+
+
+        }
+
+figcaption { margin-left: 16em;
+        
+        }
+        
+footer {
+            clear:both;
+
+        }

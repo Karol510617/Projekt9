@@ -1,0 +1,42 @@
+html {
+	scroll-behavior: smooth;
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+div.long {
+	position: absolute;
+	top: 250px;
+	left: 50px;
+	height: 600px;
+	width: 150px;
+	padding: 10px;
+	background-color: tomato;
+	transform: rotate(20deg);
+}
+div.long:hover {
+	height: 200px;
+	overflow: hidden;
+	transition: 0.3s;
+}
+div.big {
+	position: absolute;
+	top: 250px;
+	right: 50px;
+	height: 600px;
+	width: 800px;
+	background-color: royalblue;
+}
+div.child {
+	border: 3px solid black;
+	height: 200px;
+}
+.first + .child {
+	background-color: green;
+}
+.first:hover ~ .child {
+	background-color: gold;
+	transition: ease-in-out 1s;
+}

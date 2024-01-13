@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<title>Formularz przykładowy</title>
+<meta charset="utf-8">
+<style>
+form {font-family: Arial, sans-serif; }
+fieldset { width: 700px;
+	       border: 2px ridge #ff0000;
+	       padding: 10px;}
+legend { font-family: Georgia, "Times New Roman", serif;
+	      font-weight: bold; }
+label { padding-left: 10px; }
+</style>
+</head>
+<body>
+<h1>Zamów prospekt</h1>
+<form method="get">
+<label>Imię: <input type="text" name="fmail" id="fmail"></label><br><br>
+<label>Nazwisko: <input type="text" name="lmail" id="lmail"></label><br><br>
+<label>E-mail: <input type="text" name="email" id="email"></label><br><br>
+<fieldset>
+<legend>Adres płatnika</legend>
+<label>Ulica: <input type="text" name="street" id="street" size="54"></label>
+<br><br>
+<label>Miasto: <input type="text" name="city" id="city"></label>
+<label>Województwo: <input type="text" name="state" id="state" maxlength="2" size="5">
+</label>
+<label>Kod pocztowy: <input type="text" name="zip" id="zip" maxlength="5" size="5">
+</label>
+</fieldset>
+<br>
+<input type="submit" value="Wyślij"> <input type="reset">
+</form>
+</body>
+</html>

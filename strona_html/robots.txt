@@ -1,0 +1,15 @@
+#tak wygląda przykładowy rekord blokujący dostęp robotowi wyszukiwarki MSN (oczywiście jeden rekord może zawierać więcej linii User-Agent)
+User-Agent: MSNBot
+#tutaj już bardziej rozbudowany rekord który blokuje dostęp robotom do folderu img
+User-agent: *
+Disallow: /img/
+#żeby zablokować dostęp robotom do całego serwisu trzeba umieścić taki rekord
+User-agent:*
+Disallow: /
+#żeby robotom umożliwić indeksowanie jednego z elementów serwisu można użyć poniższego rekordu
+User-agent: *
+Disallow: /
+Allow: /index.html
+
+
+Plik w takiej formie jest błędny!

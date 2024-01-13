@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  display: block;
+  border: 1px none;
+  width: 100px;
+  height: 30px;
+  border-radius: 4px;
+}
+
+.class1 {
+  background-color: red;
+}
+
+.class2 {
+  background-color: gold;
+}/*# sourceMappingURL=style.css.map */

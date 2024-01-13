@@ -1,0 +1,160 @@
+@media (max-width: 720px) {
+	.header,
+	.logo {
+		width: 100%;
+	}
+	.container,
+	.header {
+		background-color: #fdf6ff;
+	}
+	.brick,
+	.company,
+	.contact-input {
+		display: block;
+	}
+	h3,
+	h4 {
+		text-transform: uppercase;
+		text-align: center;
+		margin: 20px;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		border: 0;
+	}
+	body {
+		background-image: url(img/background.jpg);
+		background-color: #37371f;
+		background-attachment: fixed;
+		background-repeat: repeat-y;
+		background-size: 100%;
+		font-family: "Open Sans", sans-serif;
+		font-size: 15px;
+	}
+	.container {
+		max-width: 90vw;
+		max-height: fit-content;
+		border: 1px solid #666;
+		color: #362b48;
+		box-shadow: 5px 5px 5px #000000a9;
+		margin: 20px auto;
+	}
+	.content,
+	footer {
+		margin: 10px;
+	}
+	.brick,
+	.send {
+		background-color: #dbd5d5db;
+	}
+	.brick {
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 700;
+		color: #000;
+		padding: 20px;
+		transition: background-color 0.5s;
+	}
+	.brick:visited {
+		background-color: #ded2d2;
+	}
+	.brick:hover {
+		background-color: #b8b8b8c6;
+	}
+	.brick:active {
+		background-color: #e50b0b;
+	}
+	li {
+		list-style-type: none;
+	}
+	.address,
+	.contact-form,
+	.send {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	p {
+		text-align: justify;
+	}
+	h1 {
+		text-transform: uppercase;
+		text-align: center;
+		padding-bottom: 20px;
+		padding-top: 10px;
+		font-size: 30px;
+	}
+	h4 {
+		font-size: 20px;
+	}
+	.AC,
+	.maint,
+	.mont,
+	.vent {
+		border-top: 5px;
+		padding: 3px;
+	}
+	.address,
+	.offer,
+	.send {
+		padding: 10px;
+	}
+	.AC div,
+	.maint div,
+	.mont div,
+	.vent div {
+		display: flex;
+		justify-content: center;
+	}
+	.AC:hover,
+	.maint:hover,
+	.mont:hover,
+	.offercolumns:hover,
+	.vent:hover {
+		background-color: #d2edf6;
+		transition: background-color 0.5s;
+	}
+	footer {
+		padding-bottom: 10px;
+	}
+	.contact-form {
+		justify-content: center;
+	}
+	.address {
+		display: flex;
+		justify-content: center;
+	}
+	input {
+		margin: 5px;
+	}
+	textarea {
+		margin-top: 5px;
+	}
+	.send {
+		display: flex;
+	}
+	.offer {
+		display: block;
+	}
+	.offercolumns {
+		display: flex;
+		flex-flow: column wrap;
+		align-items: center;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.offercolumns img {
+		height: auto;
+		width: auto;
+		max-height: 200px;
+		max-width: 250px;
+	}
+	.footer {
+		display: flex;
+		justify-content: center;
+		font-size: 13px;
+	}
+}

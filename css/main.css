@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 50px;
+  font-family: sans-serif;
+  font-size: 30px;
+  color: #fff;
+  background-color: #333;
+}
+
+p:nth-child(odd) {
+  color: lime;
+}/*# sourceMappingURL=main.css.map */

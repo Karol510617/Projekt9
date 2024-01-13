@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<title>Casita Sedona</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, Arial, sans-serif;
+      background-color: #330000;
+}
+header, h1, #wrapper{ margin-top: 0; }
+#wrapper {  background-color: #F4E8BC; 
+	        width: 90%;
+			margin: auto;
+            color: #330000;
+} 
+h1, h2 { color: #003300; }
+header { background-image: url(header.jpg);
+         background-repeat: no-repeat;  	
+		 background-size: cover; 
+}
+h1 { text-align: center;
+      font-size: 300%;
+	 padding: 5% 0;
+     text-shadow: 3px 3px 3px #F4E8BC;	
+}
+nav, main, aside {  padding: 0 1em; 
+}
+img { width: 100%; 
+      height: auto;
+}
+nav ul { list-style-type: none; 
+         font-size: 1.2em;
+		 padding-left: 0;
+}
+nav a { text-decoration: none;}
+nav a:link { color: #330000; }
+nav a:visited { color: #003300; }
+nav a:hover { color: #996600; }
+footer { text-align: center;
+         font-size: 80%;
+		 font-style: italic;
+		 color: #003300;
+		 padding: 2.5%;
+}
+@media only screen and (max-width: 1024px) {
+            body { margin: 0; padding: 0; } 
+            #wrapper { width: auto; margin: 0; }
+		    h1 { font-size: 200%; }
+			nav li { padding: 0 0.5em; 
+				     font-size: 1.2em; 	}
+			
+}		
+@media only screen and (max-width: 768px) {
+         	
+}
+header, main, aside, nav, footer, figure, figcaption { display: block; }
+</style>
+</head>
+<body>
+<div id="wrapper">
+  <header>
+    <h1>Casita Sedona</h1>
+  </header>  
+  <div>
+  <nav>
+    <ul>
+	 <li><a href="index.html">Start</a></li>
+     <li><a href="pokoje.html">Pokoje</a></li>
+     <li><a href="promocje.html">Promocje</a></li>
+     <li><a href="kontakt.html">Kontakt</a></li>
+	</ul> 
+   </nav>
+   <main>   
+	<h2>Lokalizacja w centrum Sedony</h2>
+    <p>Z pensjonatu Casita Sedona masz blisko do galerii, sklepów, restauracji i atrakcji turystycznych. Do sklepów i galerii dojedziesz bezpłatnym autobusem.</p>
+    <h2>Luksusowe apartamenty </h2>
+    <p>Zamieszkaj w doskonale urządzonym pokoju z kominkiem, królewskim łożem, balkonem z widokiem na czerwone skały oraz łazienką z prysznicem i dwuosobową wanną jacuzzi. Wybierz apartament Kanion, Pekari, Mącznica, Grzmiąca Góra lub Schnebly — każdy ma swój niepowtarzalny charakter i z pewnością będzie ważnym elementem Twojego urlopu.</p>
+  	<h2>Zdrowe śniadanie</h2>
+    <p>Każdy dzień zaczyna się od śniadania z goframi belgijskimi, dyniowymi tostami francuskimi lub quiche do wyboru. Zawsze dostępne są świeże owoce, jogurty, soki i kawa.</p>
+	<h2>Gospodarze</h2>
+	<p>Gospodarze, Melanie i Greg, to wieloletni mieszkańcy Sedony, którzy uwielbiają dzielić się z gośćmi swoją wiedzą na temat miasta i okolic. Melanie jest pisarką i malarką. Greg jest doświadczonym przewodnikiem wycieczek samochodowych i pieszych zarówno po mieście, jak i po okolicy.</p>
+   </main> 
+   <aside>
+   <img src="pools.jpg"  alt="Stawy wśród skał">
+	 <h2>Wędrówki z przewodnikiem</h2>
+	 <p>Casita Sedona oferuje swoim gościom raz w tygodniu darmową wędrówkę z przewodnikiem. Koniecznie zobacz Siedem Świętych Stawów przy szlaku Soldiers Pass.</p>
+   </aside>
+   </div> <!-- koniec kontenera elastycznego -->
+   <footer>Copyright &copy; 2018
+   </footer>
+</div>
+</body>
+</html>

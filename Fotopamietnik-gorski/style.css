@@ -1,0 +1,117 @@
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	
+    
+}
+body {
+}
+.wrapper {background-image: linear-gradient(to bottom, #ffcc33, #ffffff);
+padding: 200px;
+padding-top: 10px;
+}
+
+.box header {background-color: #fffacd;
+
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+padding: 0;
+margin: 0;
+max-width: 1200px;}
+
+.container span {padding-left: 70px;}
+.box {
+border: solid 2px #666666;
+background-image: linear-gradient(to top, #ffffff,#3399ff);
+box-shadow: 3px 3px 3px #666666;
+border-radius: 15px;
+padding: auto;
+margin: auto;
+max-width: 1200px;
+}
+main {}
+h1 {text-align: center;
+padding: 1em;}
+h2 {text-align: center;
+padding: 1em;}
+.container {
+display: grid;
+grid-template-rows: auto;
+grid-template-columns: auto auto auto;
+
+justify-content: space-around;
+align-items: center;
+max-width: 80%;
+margin-left: auto;
+margin-right: auto;}
+
+img {
+	width: 220px;
+	height: 120px;
+}
+
+
+
+
+/*
+.siata {
+	width: auto;
+	justify-items: center;
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns:
+	auto;
+	grid-gap: 10px;
+	grid-template-areas: "h2 h2 h2"
+                            "k k k"
+                            "k k k"
+}
+.kontener {
+	grid-area: k;
+	max-width: 1200px;
+}
+.header {
+	text-align: center;
+	grid-area: h2;
+}
+	/*grid-template-rows: auto;
+	grid-template-columns: 310px auto auto;
+	gap: 20px;
+
+
+.title {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	border: 1em solid #CC6600;
+	background: #CC6600;
+	max-width: 100%;
+}
+.title img {
+	transition: all .6s ease-in-out;
+}
+.title:before, .title:after {
+	
+	position: absolute;
+	text-align: center;
+	transition: all .6s ease-in-out;
+	width: 100%;
+}
+.title:before {
+	height: 100%;
+}
+.title:hover {
+	background: #CC6600;
+	color: #fff;
+	content: attr(data-title);
+	line-height: 1.5em;
+	overflow: hidden;
+	padding: 1em .5em;
+	text-overflow: ellipsis;
+	white-space: pre;
+}
+h1 {
+	text-align: center;
+}
+*/

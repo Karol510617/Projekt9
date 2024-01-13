@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: serif;
+	background-color: #333;
+}
+.card {
+	width: 400px;
+	background-color: #ddd;
+	border-radius: 8px;
+	overflow: hidden;
+
+	&_img {
+		width: 100%;
+	}
+	&_body {
+		padding: 10px 20px;
+	}
+	&_text {
+		margin: 20px 0;
+	}
+	&_btns {
+		display: flex;
+		justify-content: space-around;
+	}
+	&_btn {
+		padding: 10px 20px;
+		border: 1px solid black;
+		border-radius: 8px;
+
+		cursor: pointer;
+		&--highlight {
+			background-color: rgb(34, 116, 34);
+		}
+	}
+}

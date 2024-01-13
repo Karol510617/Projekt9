@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<title>Bistro Lighthouse</title>
+		<meta charset="utf-8">
+		<style>
+			* { box-sizing: border-box; margin: 0; }
+			body {font-family:Verdana, Arial, sans-serif; }
+			nav {  background-color: #B3C7E6; }
+			nav ul { list-style-type: none; 
+						margin: 0;
+						padding: 0; 			}
+			nav li { border-bottom: 1px solid #ffffff; }
+			nav a { text-decoration: none; 
+					  display: block;
+					  padding: 1em 2em;
+                      transition-property: background-color;
+                      transition-duration: 1s;
+                      transition-timing-function: linear; }
+			nav a:link { color: #FFFFFF; }
+			nav a:visited { color: #F8F8F8; }
+			nav a:hover {  color: #000066;
+								background-color: #eaeaea;	}
+			header { background-color: #869DC7;
+					   color: #00005D; 
+					   background-image: url(light.gif); 
+						background-repeat: no-repeat;
+						padding: 2em 0 2em 7em;
+					  font-size: 120%; }
+			h2 { color: #869dc7; 
+				  font-family: arial, sans-serif; }
+			main { padding: 1em; }
+			aside { padding: 1em; }
+			figure { margin: auto;
+						padding: 8px;
+						width: 265px;
+						background-color: #FFF;
+						border: 1px solid #CCC;
+						box-shadow: 5px 5px 5px #828282; }
+			figcaption { text-align: center;
+							 font-size: .8em;
+							 font-style: italic;	}
+			footer { background-color: #869DC7;
+						font-size:70%;
+						text-align: center;
+						padding: 2em;
+					   clear: both; }
+			#offer { background-color: #eaeaea;
+						width: 10em;
+						margin: 2em auto 0 auto;
+					   text-align: center; }
+			#offer a { text-decoration: none;
+						  color: #FF0000;	}
+			header, main, nav, figure, footer { display: block; }
+			
+			@media only screen and (min-width: 768px) {
+				#content { display: flex; }   
+				nav      { flex: none; }
+				main     { flex: 6; 
+							  min-width: 20em; 
+							  background-color: #FFFFFF; }
+				aside    { flex: 4; 
+							  background-color: #EAEAEA; }
+				header   { padding-left: 10em; }
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Bistro Lighthouse</h1>
+		</header> 
+		<div id="content">
+			<nav>
+				<ul>
+					<li><a href="index.html">Start</a></li>
+					<li><a href="menu.html">Menu</a></li>
+					<li><a href="directions.html">Dojazd</a></li>
+					<li><a href="contact.html">Kontakt</a></li>
+				</ul> 
+			</nav> 
+			<main> 
+				<h2>Kawa z&nbsp;miejscowej palarni</h2>
+				<p>Rozkoszuj się aromatem świeżo zmielonej kawy z&nbsp;miejscowej palarni. 
+					Napoje podajemy na zimno i&nbsp;na gorąco.</p>
+				<h2>Wyroby cukiernicze</h2>
+				<p>Wybieraj z&nbsp;szerokiego wachlarza naszych wypieków, spośród których 
+					szczególnie polecamy babeczki z&nbsp;owocami, rogaliki i&nbsp;bułeczki cynamonowe.</p>
+				<h2>Każda pora jest dobra na lunch</h2>
+				<p>Rozsmakuj się w&nbsp;pysznych wrapach i&nbsp;kanapkach z&nbsp;pełnoziarnistego chleba 
+					oraz miejscowych warzyw i&nbsp;owoców. </p>
+				<h2>Panoramiczny widok</h2>
+				<p>Podziwiaj piękny krajobraz! Ze szczytu naszej latarni rozciąga się piękny 
+					widok na całą okolicę. Namów przyjaciół do wejścia po 100-stopniowych schodach.</p>
+				<div id="offer">
+					<a href="#">Oferta specjalna</a>
+				</div>   
+			</main> 
+			<aside>
+				<figure>
+					<img src="lighthouse.jpg" width="250" height="355" id="floatright" alt="Latarnia morska">
+					<figcaption>Latarnia morska na wyspie Cana</figcaption>
+				</figure>
+			</aside>
+		</div> 
+		<footer>Copyright &copy; 2020 </footer>																
+	</body>
+</html>
+
+

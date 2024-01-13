@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<title>Bieżąca data</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h1>Przykład zastosowania JavaScriptu</h1>
+		<h2>Dzisiaj jest 
+			<script>
+				var myDate = new Date()
+				var month = myDate.getMonth() + 1
+				var day = myDate.getDate()
+				var year = myDate.getFullYear()
+				document.write(day + "." + month + "." + year)
+			</script>
+		</h2>
+	</body>
+</html>

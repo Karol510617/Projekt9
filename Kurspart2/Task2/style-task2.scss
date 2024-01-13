@@ -1,0 +1,107 @@
+// * {
+// 	margin: 0;
+// 	padding: 0;
+// 	box-sizing: border-box;
+// }
+// body {
+// 	height: 100vh;
+// 	font-family: "Montserrat", sans-serif;
+// 	background-color: #333;
+// }
+
+// .item {
+// 	display: flex;
+// 	justify-content: center;
+// 	align-items: center;
+// 	position: relative;
+// 	background-size: cover;
+// 	transition: 0.6s;
+// }
+
+// .item1 {
+// 	height: 40px;
+// 	// ta grafika może nie działać, podlinkuj nową 🙂
+// 	background-image: url("https://pixabay.com/get/gf584a3076ab6b88a025074cb7e6315c5f86362bc1085ae32e853ee4af174565f3984f2a758a61bc9697f5603b5275fb5934ddd37c35dd2ec637cc963f2bf9c709025603b697db2831dc2f29a696ae937_1920.jpg");
+// }
+
+// .item2 {
+// 	height: 300px;
+// 	// ta grafika może nie działać, podlinkuj nową 🙂
+// 	background-image: url("https://pixabay.com/get/g7d24ef54e420cf579ad1a12d8c34604a7b8f3f31170ce29cd8e5dfaaf0d649d703a11fc190657bb60c0dd238e4265c3dc41b37781974e769bd419dc1b7f746dc73d5e79324eeced05cc3fa83fb626984_1920.jpg");
+// 	background-position: center;
+// }
+
+// .show {
+// 	height: 300px;
+// }
+
+// section {
+// 	display: flex;
+// 	justify-content: center;
+// 	margin-top: 50px;
+
+// 	button {
+// 		margin: 0 30px;
+// 		padding: 10px 30px;
+// 		background: none;
+// 		border-radius: 5px;
+// 		border: 2px solid #00cfff;
+// 		color: #00cfff;
+// 		box-shadow: 3px 3px 10px #00cfff;
+// 		font-size: 36px;
+// 		transition: color 0.3s, box-shadow 0.3s;
+// 		cursor: pointer;
+// 	}
+
+// 	button:hover {
+// 		color: #00ffae;
+// 		box-shadow: 3px 3px 10px #00ffae;
+// 	}
+
+// 	.fas {
+// 		transition: transform 0.6s, rotate 0.6s;
+// 	}
+// }
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	font-family: "Montserrat", sans-serif;
+	background-color: #333;
+}
+
+.buttons {
+	margin-top: 200px;
+	display: flex;
+	justify-content: center;
+}
+
+.text {
+	margin-top: 200px;
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+}
+
+button {
+	margin: 0 30px;
+	padding: 10px 30px;
+	background: none;
+	border-radius: 5px;
+	border: 2px solid #00cfff;
+	color: #00cfff;
+	box-shadow: 3px 3px 10px #00cfff;
+	font-size: 36px;
+	transition: color 0.3s, box-shadow 0.3s;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+button:hover {
+	color: #00ffae;
+	box-shadow: 3px 3px 10px #00ffae;
+}
